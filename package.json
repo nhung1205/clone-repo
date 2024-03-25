@@ -1,8 +1,12 @@
 {
   "name": "nhung-clone-repo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
-  "repository": "github:nhung1205/clone-repo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhung1205/clone-repo.git"
+  },
+  "main": "index.js",
   "description": "Download and extract a git repository (GitHub, GitLab, Bitbucket) from node.",
   "keywords": [
     "download",
@@ -37,5 +41,7 @@
     "env": [
       "mocha"
     ]
-  }
+  },
+  "author": "nhung1205",
+  "homepage": "https://github.com/nhung1205/clone-repo#readme"
 }
